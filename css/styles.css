@@ -180,7 +180,6 @@ nav {
   margin: 0 auto 50px auto;
 }
 .button-hero {
-  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -195,10 +194,14 @@ nav {
   border-radius: 4px;
   align-items: center;
   margin: 0 auto 0 auto;
+  border-radius: 4px;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .button-hero:hover,
 .button-hero:focus {
-  background-color: #404bbf;
+  background: var(--ocean, #404bbf);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /*Section 2*/
@@ -234,9 +237,18 @@ nav {
 }
 .benefits-item {
   width: calc((100% - 72px) / 4);
+  max-height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--cloud, #f4f4fd);
 }
 .benefits-icon {
   fill: currentColor;
+}
+.benefits-list {
+  display: flex;
+  justify-content: center;
+  row-gap: 24px;
 }
 
 /*Section 3*/
@@ -486,7 +498,6 @@ nav {
   width: calc((100% - 48px) / 3);
 }
 .row-item:hover {
-  box-shadow: ;
 }
 .row-item.div {
   padding-bottom: 32px;
