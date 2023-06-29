@@ -382,8 +382,8 @@ nav {
   text-decoration: none;
 }
 .footer .container {
+  display: flex;
   margin-bottom: 17px;
-  align-items: flex-start;
   align-items: baseline;
 }
 .container-footer-link {
