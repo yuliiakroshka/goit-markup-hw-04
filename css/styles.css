@@ -485,13 +485,15 @@ nav {
 .messenger-list {
   display: flex;
   gap: 16px;
-  padding: 0 auto;
 }
 .footer .messenger-link {
   display: flex;
 }
 .messenger-item {
   display: flex;
+}
+.messenger-link:hover {
+  background-color: #31d0aa;
 }
 
 /*Portfolio*/
