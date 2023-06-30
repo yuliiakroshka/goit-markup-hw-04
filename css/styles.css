@@ -425,8 +425,8 @@ nav {
   color: #8e8f99;
 }
 .customers-link:hover .customers-icon {
-  fill: #404bbf;
   color: #404bbf;
+  border-color: #404bbf;
 }
 .customers-link:hover {
   border-color: #404bbf;
@@ -482,7 +482,7 @@ nav {
 .container-logo-text {
   margin-right: 120px;
 }
-.messenger-list {
+.footer .messenger-list {
   display: flex;
   gap: 16px;
 }
@@ -492,7 +492,7 @@ nav {
 .messenger-item {
   display: flex;
 }
-.messenger-link:hover {
+.footer .messenger-link:hover {
   background-color: #31d0aa;
 }
 
