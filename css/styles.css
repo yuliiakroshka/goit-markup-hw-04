@@ -335,8 +335,11 @@ nav {
   width: 40px;
   height: 40px;
 }
-.messenger-link:hover {
+.messenger-link:hover,
+.messenger-link:focus {
   background-color: #31d0aa;
+  background-color: 250ms;
+  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Customers*/
@@ -418,6 +421,9 @@ nav {
 }
 .container-logo-text {
   margin-right: 120px;
+}
+.messenger-list {
+  gap: 16px;
 }
 
 /*Portfolio*/
