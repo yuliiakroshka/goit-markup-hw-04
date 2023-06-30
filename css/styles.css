@@ -176,7 +176,7 @@ nav {
   display: flex;
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: -20px;
   border-radius: 2px;
   border-bottom: var(--ocean, #404bbf);
   width: 100%;
