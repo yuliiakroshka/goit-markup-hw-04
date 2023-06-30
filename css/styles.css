@@ -147,7 +147,7 @@ nav {
 .container.nav {
   display: flex;
 }
-link nav-link {
+.nav-link {
   position: relative;
   padding: 24px 0;
   color: #2e2f42;
@@ -160,7 +160,7 @@ link nav-link {
   align-items: center;
   flex-shrink: 0;
 }
-.link nav-link::after {
+.nav-link::after {
   content: "";
   display: flex;
   position: absolute;
