@@ -338,8 +338,8 @@ nav {
 .messenger-link:hover,
 .messenger-link:focus {
   background-color: #31d0aa;
-  background-color: 250ms;
-  cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Customers*/
@@ -411,6 +411,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 208px;
 }
 .media-text {
   color: var(--white, #fff);
