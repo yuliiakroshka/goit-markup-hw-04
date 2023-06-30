@@ -250,6 +250,12 @@ nav {
   justify-content: center;
   row-gap: 24px;
 }
+.benefits-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
 
 /*Section 3*/
 .section-we-are {
