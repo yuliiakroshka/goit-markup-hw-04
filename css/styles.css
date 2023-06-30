@@ -176,7 +176,7 @@ nav {
   display: flex;
   position: absolute;
   left: 0;
-  bottom: -20px;
+  bottom: -1px;
   border-radius: 2px;
   border-bottom: var(--ocean, #404bbf);
   width: 100%;
@@ -380,14 +380,16 @@ nav {
   background-color: #4d5ae5;
   width: 40px;
   height: 40px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-messenger-link:hover {
+.team-messenger-link:hover,
+.team-messenger-link:focus {
   background-color: #404bbf;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
 }
+/*transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;*/
+
 .team-messenger-link:focus {
   background-color: #404bbf;
 }
@@ -428,10 +430,11 @@ nav {
   border: 1px solid var(--lightslate, #8e8f99);
   border-radius: 4px;
   color: #8e8f99;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
   color: #404bbf;
   border-color: #404bbf;
 }
@@ -623,17 +626,18 @@ nav {
   padding-bottom: 32px;
 }
 .overlay-text {
-  display: flex;
   position: absolute;
   top: 0;
+  left: 0;
   color: #f4f4fd;
   padding: 40px 32px;
   background-color: #4d5ae5;
   height: 100%;
   width: 100%;
-  transform: translateY(100%);
+  transform: translateY(100%S);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(0%);
+  text-align: left;
 }
 .overlay-div {
   position: relative;
