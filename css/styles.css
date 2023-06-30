@@ -207,7 +207,8 @@ nav {
 /*Section 2*/
 
 .section-benefits {
-  padding: 120px 0;
+  display: flex;
+  padding: 0 0 120px 0;
 }
 .section-benefits.container {
   display: flex;
@@ -255,12 +256,16 @@ nav {
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
 }
 
 /*Section 3*/
 .section-we-are {
   padding-bottom: 120px;
   padding-top: 0;
+  display: flex;
 }
 .we-are-item {
   align-items: center;
