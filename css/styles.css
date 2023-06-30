@@ -165,7 +165,7 @@ nav {
   flex-shrink: 0;
 }
 .nav-list {
-  color:color: #404bbf;
+  color:#404bbf;
 }
 .nav-link::after {
   content: "";
