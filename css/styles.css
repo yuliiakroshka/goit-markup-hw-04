@@ -611,6 +611,7 @@ width:156px*/
 }
 .row-item {
   width: calc((100% - 48px) / 3);
+  height: 100%;
 }
 .row-item-link {
   display: block;
