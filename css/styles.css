@@ -78,6 +78,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: inline-block;
+  height: 100%;
 }
 .list {
   font-weight: 500;
