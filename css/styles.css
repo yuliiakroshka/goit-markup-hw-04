@@ -660,6 +660,9 @@ width:156px*/
   visibility: hidden;
   pointer-events: none;
 }
+.backdrop.is-hidden .modal {
+  opacity: 0;
+}
 .modal {
   position: absolute;
   top: 50%;
