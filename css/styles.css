@@ -600,10 +600,16 @@ width:156px*/
   justify-content: center;
   margin-bottom: 72px;
 }
-.list-row div {
-  border: 1px solid #e7e9fc;
+/*.list-row div {
   border-top: none;
   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
+  font-weight: 500;
+}*/
+.div-row {
+  border-top: none;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
   font-weight: 500;
 }
 .row-item:nth-child(3n) {
