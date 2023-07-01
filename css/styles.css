@@ -251,6 +251,7 @@ nav {
 .section-benefits {
   display: flex;
   padding: 0 0 120px 0;
+  margin-bottom: 120px;
 }
 .section-benefits.container {
   display: flex;
